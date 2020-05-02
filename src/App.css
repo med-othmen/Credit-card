@@ -1,0 +1,17 @@
+Body{
+  
+height: 640px;
+
+}
+.title{
+    text-align: center  ;
+   margin-top: 0;
+    color: #1399cd;
+    font-style: normal
+}
+.mycard{
+    text-align: center  ;
+    color: #0f509e;
+    font-size: 50px;
+    margin: auto;
+}
