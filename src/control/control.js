@@ -3,9 +3,7 @@ import './control.css';
 
 
 
-
 class Control extends React.Component {
- 
   render() {
   return (
      
@@ -16,7 +14,7 @@ class Control extends React.Component {
       <p>Your name please</p>
       <input className="input" id="name" placeholder="Name" value={this.props.state.name} type="text" name="name" maxlength="26" onChange={this.props.Verifname}/>
       <p>Date of expiration</p>
-      <input className="input" id="date" placeholder="MM/YY" value={this.props.state.date} type="text" name="date" maxlength="5" onChange={this.props.Verifdate}/>
+      <input className="input"  placeholder="MM/YY" value={this.props.state.date} type="text"  maxlength="5" onChange={this.props.Verifdate}/>
       
         
 </div>
